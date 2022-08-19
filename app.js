@@ -4,7 +4,7 @@ const app = express()
 const PORT = process.env.PORT || 3000
 
 
-app.get('/myCloud/sensative', (req,res) => {
+app.get('/myCloud/backupCode/instagram', (req,res) => {
 
     res.end("<html><head><title>Recovery Codes</title></head><body><img src='http://canarytokens.com/traffic/4lizq8u3130qkwuutnva72jhc/post.jsp'/></body></html>")
 })
